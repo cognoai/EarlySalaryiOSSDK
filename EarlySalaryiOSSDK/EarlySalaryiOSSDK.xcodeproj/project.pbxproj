@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1056A2DB3731E353C1EA5480 /* Pods_EarlySalaryiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06300EEDF96877C2655B21D /* Pods_EarlySalaryiOSSDK.framework */; };
 		8DC3C94F2954DC45007C9A2C /* EarlySalaryiOSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC3C94E2954DC45007C9A2C /* EarlySalaryiOSSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DC3C9562954DCA2007C9A2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3C9552954DCA2007C9A2C /* Constants.swift */; };
 		8DC3C9582954DCB4007C9A2C /* EarlySalaryiOSSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3C9572954DCB4007C9A2C /* EarlySalaryiOSSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BF57C76A6E363BD3A71DD8A /* Pods-EarlySalaryiOSSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlySalaryiOSSDK.debug.xcconfig"; path = "Target Support Files/Pods-EarlySalaryiOSSDK/Pods-EarlySalaryiOSSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		5652DD9CD76A140262FBD1E2 /* Pods-EarlySalaryiOSSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlySalaryiOSSDK.release.xcconfig"; path = "Target Support Files/Pods-EarlySalaryiOSSDK/Pods-EarlySalaryiOSSDK.release.xcconfig"; sourceTree = "<group>"; };
 		8DC3C94B2954DC45007C9A2C /* EarlySalaryiOSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EarlySalaryiOSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC3C94E2954DC45007C9A2C /* EarlySalaryiOSSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarlySalaryiOSSDK.h; sourceTree = "<group>"; };
 		8DC3C9552954DCA2007C9A2C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8DC3C9572954DCB4007C9A2C /* EarlySalaryiOSSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlySalaryiOSSDK.swift; sourceTree = "<group>"; };
+		A06300EEDF96877C2655B21D /* Pods_EarlySalaryiOSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlySalaryiOSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1056A2DB3731E353C1EA5480 /* Pods_EarlySalaryiOSSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +40,8 @@
 			children = (
 				8DC3C94D2954DC45007C9A2C /* EarlySalaryiOSSDK */,
 				8DC3C94C2954DC45007C9A2C /* Products */,
+				AFD5A13EBAF3D2C69C28CC09 /* Pods */,
+				BD2DA105C4494CE890D56E15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +63,24 @@
 			path = EarlySalaryiOSSDK;
 			sourceTree = "<group>";
 		};
+		AFD5A13EBAF3D2C69C28CC09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BF57C76A6E363BD3A71DD8A /* Pods-EarlySalaryiOSSDK.debug.xcconfig */,
+				5652DD9CD76A140262FBD1E2 /* Pods-EarlySalaryiOSSDK.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD2DA105C4494CE890D56E15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A06300EEDF96877C2655B21D /* Pods_EarlySalaryiOSSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DC3C9522954DC45007C9A2C /* Build configuration list for PBXNativeTarget "EarlySalaryiOSSDK" */;
 			buildPhases = (
+				FF2145F934CAB31D1B107303 /* [CP] Check Pods Manifest.lock */,
 				8DC3C9462954DC45007C9A2C /* Headers */,
 				8DC3C9472954DC45007C9A2C /* Sources */,
 				8DC3C9482954DC45007C9A2C /* Frameworks */,
@@ -130,6 +156,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF2145F934CAB31D1B107303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarlySalaryiOSSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DC3C9472954DC45007C9A2C /* Sources */ = {
@@ -195,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -266,6 +317,7 @@
 		};
 		8DC3C9532954DC45007C9A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF57C76A6E363BD3A71DD8A /* Pods-EarlySalaryiOSSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +348,7 @@
 		};
 		8DC3C9542954DC45007C9A2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5652DD9CD76A140262FBD1E2 /* Pods-EarlySalaryiOSSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;

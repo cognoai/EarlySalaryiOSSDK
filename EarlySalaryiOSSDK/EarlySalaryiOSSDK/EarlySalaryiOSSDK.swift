@@ -10,7 +10,7 @@ import WebKit
 import AVFoundation
 import Speech
 
-public class EarlySalarySDK: UIViewController, UIWebViewDelegate, WKUIDelegate, WKNavigationDelegate {
+public class EarlySalaryiOSSDK: UIViewController, UIWebViewDelegate, WKUIDelegate, WKNavigationDelegate {
     
     var webViewGlobal: WKWebView = WKWebView()
     let webViewController = UIViewController()
@@ -254,7 +254,7 @@ public class EarlySalarySDK: UIViewController, UIWebViewDelegate, WKUIDelegate, 
 }
 
 //  Handle User response for Webview Interface
-extension EarlySalarySDK: WKScriptMessageHandler {
+extension EarlySalaryiOSSDK: WKScriptMessageHandler {
 
     //    handle intent here
     public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {

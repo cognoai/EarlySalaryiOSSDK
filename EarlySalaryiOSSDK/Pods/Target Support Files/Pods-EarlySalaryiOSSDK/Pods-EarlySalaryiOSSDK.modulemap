@@ -1,0 +1,6 @@
+framework module Pods_EarlySalaryiOSSDK {
+  umbrella header "Pods-EarlySalaryiOSSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
